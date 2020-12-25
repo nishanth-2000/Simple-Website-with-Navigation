@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding : 0;
+  box-sizing: border-box;
+  
+}
+
+.graph {
+  height: 400px;
+  /* color: l; */
+  width: 400px;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  justify-content: flex-start;  
+  align-self: baseline;
+  border: white;
+  border-radius: 100px ;
+}
+
+
+.nav-link {
+  height: 120px;
+  width: 140px;
+  border: white;
+  border-radius: 80px ;
+  background: rgb(247, 255, 101);
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Nav-l {
+  display: flex;
+  flex-direction: row;
+  min-height: 2cm;
+  justify-content: space-between;
+  background-color: rgb(158, 253, 253);
+  border-radius: 30px rgb(245, 195, 195) ;
+
+}
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  /* border-collapse: collapse; */
+  /* border: 3px solid #ddd; */
+  /* width: 100%; 
+  background-color: yellowgreen;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .back {
+  text-align: center;
+  display: grid;
+  background-color: rgb(145, 221, 248);
+  background-size: 2cm;
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  text-align: center;
+  color: #a9fd8d;
+}
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
